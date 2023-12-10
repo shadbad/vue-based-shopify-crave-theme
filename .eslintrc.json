@@ -10,8 +10,17 @@
   },
   "extends": [
     "@nuxtjs/eslint-config-typescript",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:vue/vue3-recommended"
   ],
   "plugins": [],
-  "rules": {}
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": true
+      }
+    ]
+  }
 }
