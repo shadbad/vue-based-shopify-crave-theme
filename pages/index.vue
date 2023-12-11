@@ -1,12 +1,8 @@
 <template>
   <main>
     <h1>Home page</h1>
+    <span class="icon-twitter">test icon</span>
   </main>
 </template>
 
-<style scoped lang="scss">
-@use '~/assets/styles/colors.scss';
-
-main {
-}
-</style>
+<style scoped lang="scss"></style>
